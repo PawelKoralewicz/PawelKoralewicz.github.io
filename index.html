@@ -10,11 +10,12 @@
     <meta name="theme-color" content="#f69435">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <script defer src="script.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <header>
       <img src="images/logo.svg" alt="fedex logo" />
-      <div id="battery-status"> </div>
+      <div id="battery-status"><div id="level"></div></div>
     </header>
     <script>
       const PATH = "service-worker.js";
@@ -33,3 +34,4 @@
     </script>
   </body>
 </html>
+
